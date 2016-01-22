@@ -1,0 +1,121 @@
+body {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: Lato;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 3px solid #bcbbbb;
+}
+
+.nav { 
+  width: 100%;
+  padding: 0;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header .name-box {
+  float: right;
+  text-align: right;
+}
+
+.name-box h1 {
+  font-weight: 100;
+}
+
+.name-box small {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+    margin: 0 auto;
+  }
+}
+.container-narrow > hr {
+  margin: 10px 0;
+  
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 3px solid #e5e5e5;
+}
+
+.jumbotron .image {
+  width: 100%;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing h3 {
+  font-weight: 500;
+  color: #bcbbbb;
+  
+}
+
+.projects {
+  margin: 0 auto;
+}
+
+.project {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+
+.project-name {
+  text-transform: uppercase;
+}
+
+.project-link {
+  font-weight: 100;
+}
+
+.proj-picture{
+  max-width: 100%;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
